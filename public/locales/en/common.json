@@ -1,0 +1,109 @@
+{
+  "currencyTL": "₺ Turkish Lira",
+  "currencyUSD": "$ US Dollar",
+
+  "checkoutPage": {
+      "deliveryInfo": "Delivery Information",
+      "email": "Email",
+      "phone": "Phone Number",
+      "name": "First Name",
+      "surname": "Last Name",
+      "address": "Address",
+      "zipcode": "Postal Code",
+      "city": "City",
+      "orderSummary": "Order Summary",
+      "total": "Total",
+      "cardInfo": "Card Information",
+      "cardName": "Name on Card",
+      "cardNumber": "Card Number",
+      "expDate": "Expiration Date (MM/YY)",
+      "cvc": "CVC",
+      "payNow": "Pay Now"
+    },
+  
+    "cartDrawer": {
+      "emptyCart": "Your cart is empty",
+      "goToCheckout": "Proceed to Checkout"
+    },
+  
+    "filter": {
+      "searchPlaceholder": "Search product...",
+      "minPrice": "Min ₺",
+      "maxPrice": "Max ₺",
+      "categories": "Categories",
+      "favoritesOnly": "My Favorites"
+    },
+  
+    "footer": {
+      "description": "Turkey's Largest Gamer Marketplace: Buy epins, goldbars, and in-game items for your favorite games at the best prices, or safely list your accounts for sale.",
+      "corporate": "Corporate",
+      "about": "About Us",
+      "supportCenter": "Support Center",
+      "dealerApplication": "Become a Dealer",
+      "agreements": "Agreements",
+      "privacyPolicy": "Privacy Policy",
+      "userAgreement": "User Agreement",
+      "salesAgreement": "Sales Agreement",
+      "refundPolicy": "Cancellation & Refund Policy",
+      "kvkk": "GDPR",
+      "cookiePolicy": "Cookie Policy",
+      "popularListings": "Popular Listings",
+      "pubgRandom": "Buy PUBG Random Account",
+      "mlbbAccount": "Buy MLBB Account",
+      "steamKey": "Buy Steam Random Key",
+      "robloxAccount": "Buy Roblox Account",
+      "discordNitro": "Buy Discord Nitro",
+      "instagramFollowers": "Buy Instagram Followers",
+      "bestSellers": "Best Sellers",
+      "lolRp": "Buy LoL RP",
+      "pubgUc": "Buy PUBG UC",
+      "valorantVp": "Buy Valorant VP",
+      "mlbbDiamonds": "Buy MLBB Diamonds",
+      "robux": "Buy Roblox Robux",
+      "brawlStarsDiamonds": "Buy Brawl Stars Diamonds",
+      "address": "Emek Zekai Gümüşdiş District, Sanayi Street No:612 / 12, Osmangazi / BURSA",
+      "rightsReserved": "All rights reserved."
+    },
+  
+    "header": {
+      "myOrders": "My Orders",
+      "myAccount": "My Account",
+      "publishers": "Publishers",
+      "addListing": "+ Add Listing",
+      "loadBalance": "+ Load Balance",
+      "currencyTL": "₺ TL",
+      "currencyUSD": "$ USD",
+      "allCategories": "ALL CATEGORIES",
+      "marketplace": "MARKETPLACE",
+      "knightOnline": "KNIGHT ONLINE",
+      "valorantVp": "VALORANT VP",
+      "lolRp": "LOL RP",
+      "pubgMobile": "PUBG MOBILE",
+      "giftCards": "GIFT CARDS",
+      "giftSystem": "GIFT SYSTEM"
+    },
+  
+    "productCard": {
+      "addToFavorites": "Add to Favorites",
+      "view": "VIEW",
+      "addToCart": "ADD TO CART",
+      "noPrice": "No Price"
+    },
+  
+    "productList": {
+      "loading": "Loading...",
+      "prev": "Previous",
+      "next": "Next",
+      "all": "All",
+      "errorLoadingCategories": "Failed to fetch categories",
+      "errorLoadingProducts": "Failed to fetch products"
+    },
+  
+    "productDetail": {
+      "loading": "Loading...",
+      "addToCart": "Add to Cart",
+      "noDescription": "No description found.",
+      "relatedProducts": "Related Products",
+      "fetchError": "Failed to fetch product detail"
+    }
+    }

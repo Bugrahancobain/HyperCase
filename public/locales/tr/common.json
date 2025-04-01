@@ -1,0 +1,105 @@
+{
+  "checkoutPage": {
+    "deliveryInfo": "Teslimat Bilgileri",
+    "email": "E-posta",
+    "phone": "Telefon Numarası",
+    "name": "Ad",
+    "surname": "Soyad",
+    "address": "Adres",
+    "zipcode": "Posta Kodu",
+    "city": "Şehir",
+    "orderSummary": "Sipariş Özeti",
+    "total": "Toplam",
+    "cardInfo": "Kart Bilgileri",
+    "cardName": "Kart Üzerindeki İsim",
+    "cardNumber": "Kart Numarası",
+    "expDate": "Son Kullanma Tarihi (AA/YY)",
+    "cvc": "CVC",
+    "payNow": "Ödeme Yap"
+  },
+
+  "cartDrawer": {
+    "emptyCart": "Sepetiniz boş",
+    "goToCheckout": "Ödemeye Geç"
+  },
+  
+"filter": {
+    "searchPlaceholder": "Ürün ara...",
+    "minPrice": "Min ₺",
+    "maxPrice": "Max ₺",
+    "categories": "Kategoriler",
+    "favoritesOnly": "Favorilerim"
+  },
+    "footer": {
+    "description": "Türkiye'nin En Büyük Oyuncu Pazarı: Sevdiğiniz oyunlar için epin, goldbar ve item'ları en uygun fiyatlarla satın alın veya hesaplarınızı güvenle satışa çıkartın.",
+    "corporate": "Kurumsal",
+    "about": "Hakkımızda",
+    "supportCenter": "Çözüm Merkezi",
+    "dealerApplication": "Bayilik Başvurusu",
+    "agreements": "Sözleşmeler",
+    "privacyPolicy": "Gizlilik Politikası",
+    "userAgreement": "Kullanıcı Sözleşmesi",
+    "salesAgreement": "Satış Sözleşmesi",
+    "refundPolicy": "İptal & İade Koşulları",
+    "kvkk": "KVKK",
+    "cookiePolicy": "Çerez Politikası",
+    "popularListings": "Popüler İlanlar",
+    "pubgRandom": "PUBG Random Hesap Satın Al",
+    "mlbbAccount": "MLBB Hesap Satın Al",
+    "steamKey": "Steam Random Key Satın Al",
+    "robloxAccount": "Roblox Hesap Satın Al",
+    "discordNitro": "Discord Nitro Satın Al",
+    "instagramFollowers": "Instagram Takipçi Satın Al",
+    "bestSellers": "Çok Satanlar",
+    "lolRp": "LoL RP Satın Al",
+    "pubgUc": "PUBG UC Satın Al",
+    "valorantVp": "Valorant VP Satın Al",
+    "mlbbDiamonds": "MLBB Elmas Satın Al",
+    "robux": "Roblox Robux Satın Al",
+    "brawlStarsDiamonds": "Brawl Stars Elmas Satın Al",
+    "address": "Emek Zekai Gümüşdiş Mah. Sanayi Cad. No:612 / 12 Osmangazi / BURSA",
+    "rightsReserved": "Tüm hakları saklıdır."
+  },
+
+  "header": {
+    "myOrders": "Siparişlerim",
+    "myAccount": "Hesabım",
+    "publishers": "Yayıncılar",
+    "addListing": "+ İlan Ekle",
+    "loadBalance": "+ Bakiye Yükle",
+    "currencyTL": "₺ TL",
+    "currencyUSD": "$ USD",
+    "allCategories": "TÜM KATEGORİLER",
+    "marketplace": "İLAN PAZARI",
+    "knightOnline": "KNIGHT ONLINE",
+    "valorantVp": "VALORANT VP",
+    "lolRp": "LOL RP",
+    "pubgMobile": "PUBG MOBILE",
+    "giftCards": "HEDİYE KARTLARI",
+    "giftSystem": "HEDİYE SİSTEMİ"
+  },
+
+  "productCard": {
+    "addToFavorites": "Favorilere ekle",
+    "view": "GÖRÜNTÜLE",
+    "addToCart": "SEPETE EKLE",
+    "noPrice": "Fiyat Yok"
+  },
+
+  "productList": {
+    "loading": "Yükleniyor...",
+    "prev": "Önceki",
+    "next": "Sonraki",
+    "all": "Tümü",
+    "errorLoadingCategories": "Kategoriler alınamadı",
+    "errorLoadingProducts": "Ürünler alınamadı"
+  },
+
+  "productDetail": {
+    "loading": "Yükleniyor...",
+    "addToCart": "Sepete Ekle",
+    "noDescription": "Açıklama bulunamadı.",
+    "relatedProducts": "Benzer Ürünler",
+    "fetchError": "Ürün detayı alınamadı"
+  }
+  }
