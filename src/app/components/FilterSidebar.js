@@ -30,14 +30,13 @@ export default function FilterSidebar({
     };
 
     return (
-        <aside className="bg-white dark:bg-gray-800 h-min rounded shadow p-4 w-full sticky top-4">
-            <input
-                type="text"
-                placeholder={t("filter.searchPlaceholder")}
-                value={searchTerm}
-                onChange={(e) => setSearchTerm(e.target.value)}
-                className="w-full border px-4 py-2 border border-gray-500 rounded mb-4 text-black dark:text-white"
-            />
+        <aside className="bg-white dark:bg-gray-800 h-min rounded shadow p-4 w-full md:sticky md:top-4">            <input
+            type="text"
+            placeholder={t("filter.searchPlaceholder")}
+            value={searchTerm}
+            onChange={(e) => setSearchTerm(e.target.value)}
+            className="w-full border px-4 py-2 border border-gray-500 rounded mb-4 text-black dark:text-white"
+        />
 
             <div className="flex gap-2 mb-4">
                 <input

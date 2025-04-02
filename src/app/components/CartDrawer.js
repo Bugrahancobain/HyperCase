@@ -1,5 +1,5 @@
 "use client";
-import { useContext } from "react";
+import { useRef, useEffect, useContext } from "react";
 import { CartContext } from "@/app/context/CartContext";
 import Link from "next/link";
 import { CurrencyContext } from "@/app/context/CurrencyContext";
@@ -9,6 +9,23 @@ export default function CartDrawer({ isOpen, onClose, cartItems }) {
     const { removeFromCart, updateQuantity } = useContext(CartContext);
     const { currency } = useContext(CurrencyContext);
     const { t } = useTranslation();
+    const drawerRef = useRef(null); // ✅
+
+    useEffect(() => {
+        const handleClickOutside = (e) => {
+            if (drawerRef.current && !drawerRef.current.contains(e.target)) {
+                onClose();
+            }
+        };
+
+        if (isOpen) {
+            document.addEventListener("mousedown", handleClickOutside);
+        }
+
+        return () => {
+            document.removeEventListener("mousedown", handleClickOutside);
+        };
+    }, [isOpen, onClose]);
 
     const convertedPrice = (price) => {
         const numericPrice = Number(price);
@@ -20,7 +37,8 @@ export default function CartDrawer({ isOpen, onClose, cartItems }) {
 
     return (
         <div
-            className={`absolute right-4 top-16 w-80 bg-white dark:bg-gray-800 text-black dark:text-white border rounded shadow-lg transition-all duration-300 ${isOpen ? "opacity-100 visible" : "opacity-0 invisible"
+            ref={drawerRef}
+            className={`fixed z-[9999] right-4 top-20 w-80 bg-white dark:bg-gray-800 ... ${isOpen ? "opacity-100 visible" : "opacity-0 invisible pointer-events-none"
                 }`}
         >
             <div className="max-h-64 overflow-y-auto p-4 space-y-4">
