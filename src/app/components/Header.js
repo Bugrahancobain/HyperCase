@@ -51,10 +51,9 @@ export default function Header() {
                 <Link href="/tr">
                     <h1 className="text-xl font-bold cursor-pointer">HyperCase</h1>
                 </Link>
-                <button onClick={() => setMobileMenuOpen(prev => !prev)} className="md:hidden text-2xl">
+                <button onClick={() => setMobileMenuOpen(prev => !prev)} className="md:hidden text-2xl cursor-pointer">
                     <FiMenu />
                 </button>
-                {/* Masaüstü Menü */}
                 <div className="hidden md:flex gap-5 items-center">
                     <Link href="#">{t("header.myOrders")}</Link>
                     <Link href="#">{t("header.myAccount")}</Link>
@@ -84,14 +83,13 @@ export default function Header() {
                 </div>
             </header>
 
-            {/* Mobil Menü */}
             <div
                 ref={menuRef}
                 className={`fixed top-0 right-0 h-full w-[80%] max-w-sm bg-white dark:bg-gray-900 text-black dark:text-white shadow-lg z-[998] transform transition-transform duration-300 ease-in-out ${isMobileMenuOpen ? "translate-x-0" : "translate-x-full"} md:hidden`}
             >
                 <div className="flex justify-between items-center px-4 py-3 border-b">
                     <h2 className="text-lg font-semibold">{t("header.menu")}</h2>
-                    <button onClick={() => setMobileMenuOpen(false)} className="text-2xl">×</button>
+                    <button onClick={() => setMobileMenuOpen(false)} className="text-2xl cursor-pointer">×</button>
                 </div>
                 <div className="flex flex-col gap-4 px-4 py-6">
                     <Link href="#">{t("header.myOrders")}</Link>
@@ -137,7 +135,6 @@ export default function Header() {
                 </div>
                 <div className="h-1 bg-gradient-to-r from-blue-500 via-purple-500 to-orange-400" />
             </div>
-            {/* Header bileşeninin sonunda, tüm drawer'lardan sonra */}
             <CartDrawer
                 isOpen={isDrawerOpen}
                 onClose={() => setDrawerOpen(false)}

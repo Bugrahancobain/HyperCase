@@ -9,7 +9,7 @@ export default function CartDrawer({ isOpen, onClose, cartItems }) {
     const { removeFromCart, updateQuantity } = useContext(CartContext);
     const { currency } = useContext(CurrencyContext);
     const { t } = useTranslation();
-    const drawerRef = useRef(null); // ✅
+    const drawerRef = useRef(null);
 
     useEffect(() => {
         const handleClickOutside = (e) => {

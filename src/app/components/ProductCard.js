@@ -31,7 +31,6 @@ function ProductCard({ product }) {
                 <p className="text-black dark:text-white font-bold mt-1">{convertedPrice}</p>
             </div>
 
-            {/* 🟣 Mobil - Her zaman görünür butonlar */}
             <div className="flex flex-col gap-2 mt-3 md:hidden">
                 <div className="absolute top-2 left-2">
                     <button
@@ -50,13 +49,12 @@ function ProductCard({ product }) {
                 </Link>
                 <button
                     onClick={() => addToCart(product, 1)}
-                    className="w-full bg-purple-600 text-white py-1 rounded hover:bg-purple-700 transition"
+                    className="w-full bg-purple-600 text-white py-1 rounded hover:bg-purple-700 transition cursor-pointer"
                 >
                     {t("productCard.addToCart")}
                 </button>
             </div>
 
-            {/* 🔵 Masaüstü - Hover ile görünür butonlar */}
             <div className="absolute inset-0 bg-black/50 hidden md:flex flex-col justify-center items-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-20">
                 <div className="absolute top-2 left-2">
                     <button
